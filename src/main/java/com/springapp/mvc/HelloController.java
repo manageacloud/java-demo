@@ -22,7 +22,7 @@ public class HelloController {
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
-        model.addAttribute("message", "Java Demo Version 3");
+        model.addAttribute("message", "Java Demo Version 1");
 		return "hello";
 	}
 }

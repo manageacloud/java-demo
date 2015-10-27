@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="java-demo:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="java-demo.war">
-      <element id="artifact" artifact-name="java-demo:war exploded" />
-    </root>
-  </artifact>
-</component>
