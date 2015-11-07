@@ -1,4 +1,4 @@
-# java-demo
+# Blue green deployment demo
 Blue green deployment demo for Java applications.
 
 This example assumes that a continuous integration system is deploying WAR with a known name at [dist](https://github.com/manageacloud/java-demo/tree/master/dist) folder. You can learn more about this technology by reading the [quickstart guide](https://manageacloud.com/quickstart).
