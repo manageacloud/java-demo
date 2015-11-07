@@ -1,5 +1,5 @@
 # Blue green deployment demo
-Blue green deployment demo for Java applications.
+[Blue green deployment](http://blog.manageacloud.com/entry/zero-downtime-using-blue-green-deployments) demo for Java applications.
 
 This example assumes that a continuous integration system is deploying WAR with a known name at [dist](https://github.com/manageacloud/java-demo/tree/master/dist) folder. You can learn more about this technology by reading the [quickstart guide](https://manageacloud.com/quickstart).
 
@@ -28,11 +28,11 @@ The output displays the DNSName of the elastic load balancer. In a real word dep
 
 
 # Step 3
-Let's emulate a green blue deployment.
+Let's emulate a green blue deployment. We will deploy a second infrastructure "version 2".
 
     mac -s infrastructure macfile https://goo.gl/SouFP3 -p INF_VERSION=2 WAR_VERSION=2
     
-There are two infrastructures running in pararel an conecting to the same RDS.
+There are two infrastructures running in paralel and connecting to the same RDS.
 
     mac infrastructure list
     
