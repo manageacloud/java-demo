@@ -7,8 +7,8 @@ general:
 test:
   post:
     - mvn clean install
-deployment:
-  master:
-    branch: master
-    #commands:
-    #  - curl \-X POST https://manageacloud.com/trigger/3j125n8jocjjkgucbbhkeph79p
+#deployment:
+#  master:
+#    branch: master
+#    commands:
+#      - curl \-X POST https://manageacloud.com/trigger/3j125n8jocjjkgucbbhkeph79p
