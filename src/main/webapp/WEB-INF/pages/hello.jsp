@@ -4,4 +4,5 @@
     <p>Hostname: ${hostname}</p>
     <p>Ip: ${ip}</p>
 </body>
+
 </html>
