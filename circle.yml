@@ -11,4 +11,4 @@ deployment:
   master:
     branch: master
     commands:
-      - curl \-X POST https://manageacloud.com/trigger/jhkv0c3jjo2mp4ncn6enle03pd
+      - curl \-X POST https://manageacloud.com/trigger/3ks82q9vsgdvg3u8dulfd55et3
