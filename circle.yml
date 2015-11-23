@@ -10,4 +10,4 @@ test:
 
 teardown:
     post:
-        - curl \-\-data "APP_VERSION=${CIRCLE_BUILD_NUM}" POST https://manageacloud.com/trigger/3ks82q9vsgdvg3u8dulfd55et3
+        - curl \-\-data "APP_VERSION=${CIRCLE_BUILD_NUM}" https://manageacloud.com/trigger/3ks82q9vsgdvg3u8dulfd55et3
