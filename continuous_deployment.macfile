@@ -1,7 +1,7 @@
 mac: 0.9.27
 description: Infrastructure file for Continuous Deployment
 name: CD_tomcat_demo
-version: {TOMCAT_VERSION}
+version: {APP_VERSION}
 
 roles:
     tomcat_app:
@@ -36,7 +36,7 @@ infrastructures:
     load_balancer_01:
         resource: elastic_load_balancer
         params:
-            name: lb-{TOMCAT_VERSION}
+            name: lb-{APP_VERSION}
             listeners: Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80
             availability-zones: us-east-1b us-east-1c
             region: us-east-1
@@ -52,6 +52,6 @@ infrastructures:
         #ready: role.tomcat_app
         resource: register_lb
         params:
-            load-balancer-name: lb-{TOMCAT_VERSION}
+            load-balancer-name: lb-{APP_VERSION}
             instances: role.tomcat_app.get_id
             region: us-east-1
