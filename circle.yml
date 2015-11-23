@@ -7,9 +7,6 @@ general:
 test:
   post:
     - mvn clean install
-deployment:
-  master:
-    branch: master
 
 teardown:
     post:
