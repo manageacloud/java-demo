@@ -47,6 +47,8 @@ infrastructures:
         location: us-east-1
         hardware: t2.small
         role: tomcat_app
+        environment:
+        - APP_VERSION: {APP_VERSION}
 
     register_instance:
         #ready: role.tomcat_app
