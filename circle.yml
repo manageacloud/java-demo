@@ -10,5 +10,7 @@ test:
 deployment:
   master:
     branch: master
-    commands:
-            - curl --max-time 1 \-\-data "APP_VERSION=${CIRCLE_BUILD_NUM}" POST https://manageacloud.com/trigger/3ks82q9vsgdvg3u8dulfd55et3
+
+teardown:
+    post:
+        - curl \-\-data "APP_VERSION=${CIRCLE_BUILD_NUM}" POST https://manageacloud.com/trigger/3ks82q9vsgdvg3u8dulfd55et3
