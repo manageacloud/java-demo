@@ -38,7 +38,7 @@ infrastructures:
         params:
             name: lb-{APP_VERSION}
             listeners: Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=8080
-            availability-zones: us-east-1b us-east-1c
+            availability-zones: us-east-1b us-east-1c us-east-1d us-east-1e
             region: us-east-1
             
     tomcat:
