@@ -9,6 +9,6 @@ test:
     - mvn clean install
 deployment:
   master:
-    branch: master
+    branch: feature/moriano
     commands:
       - curl \-X POST https://manageacloud.com/trigger/bc75rcg3m2r8u2li0e616agn6v
