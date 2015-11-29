@@ -15,11 +15,11 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
         try {
             InetAddress ip = InetAddress.getLocalHost();
-            String db = System.getenv("DB_IP");
+            //String db = System.getenv("DB_IP");
             String hostname = ip.getHostName();
             model.addAttribute("ip", ip.getHostAddress());
             model.addAttribute("hostname", hostname);
-            model.addAttribute("db", db);
+            //model.addAttribute("db", db);
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
