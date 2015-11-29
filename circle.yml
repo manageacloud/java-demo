@@ -11,4 +11,4 @@ deployment:
   master:
     branch: feature/moriano
     commands:
-      - curl \-X POST https://manageacloud.com/trigger/bc75rcg3m2r8u2li0e616agn6v
+      - curl \-\-data "APP_VERSION=${CIRCLE_BUILD_NUM}" https://manageacloud.com/trigger/bc75rcg3m2r8u2li0e616agn6v
