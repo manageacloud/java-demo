@@ -6,7 +6,6 @@
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>java-demo</name>
-
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
         <servlet.version>3.0.1</servlet.version>
