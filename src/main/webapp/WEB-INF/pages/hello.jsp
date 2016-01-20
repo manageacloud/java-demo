@@ -1,6 +1,6 @@
 <html>
-<body>
-	<h1>${message}. HELO AWS MEET-UP!!!!</h1>
+<body style="background-color: green">
+	<h1>${message}. OPERATIONAL ??</h1>
     <p>Hostname: ${hostname}</p>
     <p>Ip: ${ip}</p>
 </body>
