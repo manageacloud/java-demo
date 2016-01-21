@@ -1,6 +1,6 @@
 <html>
-<body style="background-color: green">
-	<h1>${message}. OPERATIONAL ??</h1>
+<body>
+	<h1>${message}.</h1>
     <p>Hostname: ${hostname}</p>
     <p>Ip: ${ip}</p>
 </body>
